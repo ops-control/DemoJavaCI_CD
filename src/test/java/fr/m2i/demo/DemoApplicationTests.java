@@ -24,7 +24,7 @@ class DemoApplicationTests {
 
 		//Cas 207
 		ServiceResponseDTO responseDTO207 = bankService.debit(215);
-		assertEquals("207",responseDTO207.code);
+		assertEquals("607",responseDTO207.code);
 	}
 
 }

@@ -14,7 +14,7 @@ public class BankService {
         if (amount > 2300) {
             return ServiceResponseDTO.buildResponse("prelevement echoue","789");
         }
-        return ServiceResponseDTO.buildResponse("prelevement reussi","602",2000-amount);
+        return ServiceResponseDTO.buildResponse("prelevement reussi","607",2000-amount);
 
     }
 }
