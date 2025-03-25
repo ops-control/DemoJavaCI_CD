@@ -20,5 +20,5 @@ jobs:
         distribution: 'temurin'
 
     - name: Build with Gradle Wrapper
-      run: chmod +x ./gradlew ./gradlew build
+      run: chmod +x ./gradlew; ./gradlew build
 
